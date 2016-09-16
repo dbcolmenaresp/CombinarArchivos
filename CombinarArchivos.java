@@ -1,0 +1,2 @@
+/* Clase java para la combinacion de dos archivos planos
+*/
