@@ -23,6 +23,7 @@ La llamada a la funcion del sistema incluye todos los argumentos necesarios para
 	3 Nombre de archivo destino
 	
 Adicionalmente se debe realizar las validaciones correspondientes para evitar errores al invocar la clase:
+
 	1 validar que el numero de parametros que se pasan a la clase sea el suficiente para una ejecucion exitosa
 	2 Validar que efectivamente existan los archivos que se van a combinar en el metodo correspondiente de la clase
 
