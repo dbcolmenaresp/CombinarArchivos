@@ -1,2 +1,2 @@
-/* Clase java para la combinacion de dos archivos planos
+/* Clase en java SE para combinar 2 o mas archivos en formato plano en un unico archivo.
 */
