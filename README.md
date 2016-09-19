@@ -28,3 +28,8 @@ Adicionalmente se debe realizar las validaciones correspondientes para evitar er
 	2 Validar que efectivamente existan los archivos que se van a combinar en el metodo correspondiente de la clase
 
 En caso de no complir con alguna de las validaciones, se debe desplegar el mensaje correspondiente para su tratamiento y correccion adecuado.
+
+Enlaces utilizados:
+
+Lectura y escritura de ficheros en java
+http://chuwiki.chuidiang.org/index.php?title=Lectura_y_Escritura_de_Ficheros_en_Java
