@@ -10,6 +10,8 @@
 	2 Validar que efectivamente existan los archivos que se van a combinar en el metodo correspondiente de la clase
 */
 
+import java.io.*;
+
 public class CombinarArchivos{
 	
 	public static void main(String[] args){
