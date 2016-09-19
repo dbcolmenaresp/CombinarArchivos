@@ -9,3 +9,10 @@
 		1 validar que el numero de parametros que se pasan a la clase sea el suficiente para una ejecucion exitosa
 	2 Validar que efectivamente existan los archivos que se van a combinar en el metodo correspondiente de la clase
 */
+
+public class CombinarArchivos{
+	
+	public static void main(String[] args){
+		
+	}
+}
