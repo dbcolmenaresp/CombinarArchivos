@@ -13,12 +13,20 @@
 import java.io.*;
 
 public class CombinarArchivos{
-	
-	public static void main(String[] args) throws IOException{
-		try{
-			
-		}catch(){
-			
-		}
-	}
+        
+        public static void main(String[] args){
+                File archivo = null;
+                FileReader fr = null;
+                BufferedReader br = null;
+                System.out.println("\"Esta es una prueba de java\"");
+                try{
+                        System.out.println("Tratando de leer el archivo");
+                        archivo = new File("C:/archivo.txt");
+                        System.out.println("El archivo leido es " + archivo.getName());
+                }catch(Exception e){
+                        System.out.println("Problemas al leer el archivo");
+                }finally{
+
+                }
+        }
 }
