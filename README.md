@@ -34,5 +34,8 @@ Enlaces utilizados:
 Paquete java.io
 https://darkbyteblog.wordpress.com/2011/01/19/java-paquete-java-io-introduccion-a-los-flujos-de-datosio/
 
+La clase File de java
+http://www.sc.ehu.es/sbweb/fisica/cursoJava/fundamentos/archivos/file.htm
+
 Lectura y escritura de ficheros en java
 http://chuwiki.chuidiang.org/index.php?title=Lectura_y_Escritura_de_Ficheros_en_Java
