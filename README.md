@@ -39,3 +39,12 @@ http://www.sc.ehu.es/sbweb/fisica/cursoJava/fundamentos/archivos/file.htm
 
 Lectura y escritura de ficheros en java
 http://chuwiki.chuidiang.org/index.php?title=Lectura_y_Escritura_de_Ficheros_en_Java
+
+Argumentos desde la linea de comandos
+http://puntocomnoesunlenguaje.blogspot.com/2012/08/el-argumento-args-de-main-en-java.html
+
+Determinar el sistema operativo desde java
+http://lineadecodigo.com/java/conocer-el-sistema-operativo-con-java/
+
+Determinar el caracter de separacion de directorios del sistema operativo
+http://lineadecodigo.com/java/separador-de-directorios-en-java/
