@@ -11,31 +11,40 @@
 */
 
 import java.io.*;
+import java.util.*;
 
 public class CombinarArchivos{
-
+        
         public static void main(String[] args){
                 File archivo = null;
+		ArrayList<File> archivos = new ArrayList<File>();
                 FileReader fr = null;
                 BufferedReader br = null;
-                System.out.println("El sistema operativo es " + System.getProperty("os.name"));
-                System.out.println("El simbolo de separacion es " + System.getProperty("file.separator"));
-                System.out.println("Se ingresaron " + args.length + " argumentos");
-                try{
-                        System.out.println("Tratando de leer el archivo");
-                        if (System.getProperty("os.name").equals("Linux")){
-                                archivo = new File("/home/dcolmenares/archivo.txt");
-                        }
-                        else{
-                                archivo = new File("C:/archivo.txt");
-                        }
-                        if (archivo.exists()){
-                                System.out.println("El archivo existe");
-                                System.out.println("El archivo leido es " + archivo.getName());
-                        }
-                }catch(Exception e){
-                        System.out.println("Problemas al leer el archivo");
-                }finally{
-                }
+// Se valida que existan 2 o mas nombres de archivos para editar, entrada y salida
+		if (args.length >= 2){
+// Se llena un arreglo con los archivos pasados en los argumentos
+			for (int i = 0; i < args.length; i++) {
+			        System.out.println(args[i]);
+				archivos.add(new File(args[i]));
+			}
+			System.out.println("Se almacenaron " + archivos.size() + " archivos");
+// Se examina para validar todos los archivos pasados como argumentos
+			boolean archivosCorrectos = true;
+			for(int i = 0; i < archivos.size(); i++){
+				System.out.println(archivos.get(i));
+				System.out.println(archivos.get(i).getName());
+				if (archivos.get(i).exists()){
+					System.out.println("El archivo " + archivos.get(i).getName() + " es correcto");
+				}else{
+					System.out.println("El archivo" + archivos.get(i).getName() + " no existe");
+					archivosCorrectos = false;
+				}
+			}
+			if (!archivosCorrectos){
+				System.out.println("Hay un error en los argumentos");
+			}
+		}else{
+			System.out.println("Debe colocar al menos dos nombres de archivos para editar");
+		}
         }
 }
