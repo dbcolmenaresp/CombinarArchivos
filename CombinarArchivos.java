@@ -16,10 +16,12 @@ import java.util.*;
 public class CombinarArchivos{
         
         public static void main(String[] args){
-                File archivo = null;
+//                File archivo = null;
 		ArrayList<File> archivos = new ArrayList<File>();
-                FileReader fr = null;
-                BufferedReader br = null;
+//                FileReader fr = null;
+		ArrayList<FileReader> frs = new ArrayList<FileReader>();
+//                BufferedReader br = null;
+		ArrayList<BufferedReader> brs = new ArrayList<BufferedReader>();
 // Se valida que existan 2 o mas nombres de archivos para editar, entrada y salida
 		if (args.length >= 2){
 // Se llena un arreglo con los archivos pasados en los argumentos
